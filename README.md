@@ -1,7 +1,4 @@
-### Hi there 👋
 
-<!--
-**asosial/asosial** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 TOOL BILIGISI : HASH METHODU ILE VERI SIFRELEMEK ICIN TASARLANMISDIR, ICERISINDE MD5 DAHIL OLMAKLA 6 TURDE SHA SIFRELEME PAKETLERIDE MEVCUT.
 
