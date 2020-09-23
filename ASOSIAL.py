@@ -40,7 +40,7 @@ class hashlama():
     def hashlama_secenegi(self):
        print("\033[0;33;40mVeri sifreleme salonuna hos geldiniz.\nSifreleme sinifindan birisini secerek , prosedurunuza baslaya bilirsiniz. ")
 
-       print("\033[0;33;40m[1] md5 sifreleme\n[2] sha256 sifreleme\n[3] sha1 sifreleme\n[4] sha512 sifreleme\n[5] sha224 sifreleme\n[6] sha384 sifrelem ")
+       print("\033[0;33;40m[1] md5 sifreleme\n[2] sha256 sifreleme\n[3] sha1 sifreleme\n[4] sha512 sifreleme\n[5] sha224 sifreleme\n[6] sha384 sifreleme ")
        secim = input("Secim:::===>>>")
        if (secim == "1"):
          self.md5_sifrelenmesi()
@@ -57,7 +57,7 @@ class hashlama():
        else:
            print("\033[1;31;40mSeciminiz uzere bir prosedur yok[-]\nyanlis mudahilede bulundunuz[-]\033[0m")
        yeni_secim = input(
-           "yeni bir veri sifrelemek istermisiniz? , egre istersenez E diye aksi takdirde H diye bir secim girin:::===>>>")
+           "yeni bir veri sifrelemek istermisiniz? , eger istersenez E diye aksi takdirde H diye bir secim girin:::===>>>")
 
        if (yeni_secim == "E"):
            print(self.hashlama_secenegi())
